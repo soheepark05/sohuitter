@@ -1,4 +1,4 @@
-import  authService  from './fnbase';
+import  {authService}  from './fnbase';
 //fnbase찾기
 import { useState } from "react";
 
@@ -55,25 +55,7 @@ const Auth = () => {
     const toggleAccount = () => setNewAccount((prev) => !prev);
 
     const onSocialClick = async (event) => {
-        //console.log(event.target.name);
 
-        // const {
-        //     target: { name },
-        // } = event;
-        // let provider;
-        // if (name === "google") {
-        //     // 책 provider = new firebaseInstance.auth.GoogleAuthProvider();
-        //     //provider = new GoogleAuthProvider();
-        //     provider = new GoogleAuthProvider();
-
-        // } else if (name === "github") {
-        //     //provider = new firebaseInstance.auth.GithubAuthProvider();
-        //     provider = new GithubAuthProvider();
-        // }
-
-        // //const data = await authService.signInWithPopup(provider);
-        // await signInWithPopup(authService, provider);
-        // //console.log(error);
         const name = event.target.name;
         let provider;
         if (name === "google") {
