@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/sohuitter/static/css/main.934d26b6.css",
-    "main.js": "/sohuitter/static/js/main.914b9e46.js",
+    "main.js": "/sohuitter/static/js/main.bcd0f9a4.js",
     "index.html": "/sohuitter/index.html",
     "main.934d26b6.css.map": "/sohuitter/static/css/main.934d26b6.css.map",
-    "main.914b9e46.js.map": "/sohuitter/static/js/main.914b9e46.js.map"
+    "main.bcd0f9a4.js.map": "/sohuitter/static/js/main.bcd0f9a4.js.map"
   },
   "entrypoints": [
     "static/css/main.934d26b6.css",
-    "static/js/main.914b9e46.js"
+    "static/js/main.bcd0f9a4.js"
   ]
 }
