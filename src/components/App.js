@@ -28,7 +28,8 @@ function App() {
                 });
 
             } else {
-                setIsLoggedIn(false);
+               // setIsLoggedIn(false);
+               setUserObj(false); //유저가 없으면 false
             }
             setInit(true);
 
